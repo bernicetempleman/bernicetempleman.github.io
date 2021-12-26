@@ -1,12 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Bernice Templeman | Software Developer</title>
 </head>
 
 <body>
-  <h1>Portfolio</>
-  </body>
-  </html>
+  <!-- Navbar -->
+  <nav>
+    <h1>Bernice Templeman</h1>
+    <ul class="navigation">
+      <li><a href="#more-about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+
+  <!-- More about -->
+  <section class="more-about" id="more-about">
+    <h2>About Me</h2>
+    <p>
+      Experienced Software Engineer, Senior Systems Analyst, Technical Support Engineer, Computer Programmer, Linux, and
+      Unix System Administrator.
+    </p>
+    <p>
+      I am a Software Developer with experience in ServiceNow administration, implementation, and integration.
+      Previously I graduated from the Florida Institute of Technology with a master's degree in computer information
+      systems in December 2016. I continued with doctoral studies at Colorado Technical University after my master’s
+      degree.
+      </p>
+      <p>
+      After working as a system administrator and technical support engineer for several years, I decided to shift my
+      career to software development. Since shifting careers, I have worked on several projects and gained valuable
+      experience in technologies on Java, web applications, and mobile app development. I enjoy programming and enjoy
+      learning new development technologies, which is the reason I am currently working as a ServiceNow Developer
+      through Revature. I hope to become a senior developer in a few years to mentor others, possibly including others
+      trying to make career shifts as I have.
+    </p>
+    <p>
+      During my time at Revature, I’ve worked on several projects where I gained experience in ServiceNow Development,
+      Administration, ITSM, and ITIL.
+    </p>
+
+    <p>
+      * Programmed using Business Rules, Script Includes, Data policies, UI Policies, UI Actions, and Client Scripts
+    </p>
+    <p>
+      * Used ServiceNow Workflows, Flow Design, App Engine Studio, and Service Portal
+    </p>
+    <p>
+      * Worked on projects using frontend technologies (HTML, CSS, JS, Typescript, and Angular)
+    </p>
+    <p>
+      * Demonstrated skills in data management, solving problems, and being able to work collaboratively within a team
+      or independently
+    </p>
+    <p>
+      * Self-starter and excited to explore new solutions
+    </p>
+    <p>
+      * Strong oral and written communication skills
+    </p>
+
+  </section>
+
+  
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of My Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="https://user-images.githubusercontent.com/12488769/146371342-182f2231-a6ee-4683-a4b1-f995702f8ef7.png" alt="Service Management Template" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Service Management Template</h3>
+        <p class="project-details">
+          ServiceNow IT Service Management Template project includes customizing the OOB forms for Incident, Problem, Change Management and Service Request to built a standard procedure to be used by any customer in Single Tenant/Multi Tenant instance along with SLA, Notifications, Known Errors and Service Catalog items.
+          This project is a Blueprint which can be used in future for any fresh ServiceNow instances by applying the Update Sets.
+        </p>
+        <a href="https://github.com/bernicetempleman/ServiceNow-IT-Service-Management-Template" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="https://user-images.githubusercontent.com/12488769/144729888-948fe27a-e890-4ce7-94fd-06d7f6291c75.png" alt="Customer Onboarding" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Customer Onboarding: Multitenant </h3>
+        <p class="project-details">
+          The Customer Onboarding project includes the entire details for the fresh customer to get onboarded on the multi-tenant instance including Domain, Company, Department, Locations, Users, Groups, Roles, Categorization, Resolution details, & SLA using Import Sets and Transform Maps. It also includes separate Requirement Design documents as per the industry best standards. 
+          Leverages Import Sets and Transform Map.
+        </p>
+        <a href="https://github.com/bernicetempleman/Customer-Onboarding-Multitenant" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="https://user-images.githubusercontent.com/12488769/144730777-d66e73ba-b467-40df-9a04-ca572b414f56.png" alt="service-catalog" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Service Catalog Design</h3>
+        <p class="project-details">
+          Service Request Management system provides an intuitive interface with predefined work flows for IT requests to be reliably submitted, routed, approved, monitored and delivered with minimum human interference. Every individuals developed complex Service Catalog using Custom Table, including Catalog Clients scripts/Catalog UI policies, and complex Workflows.
+
+Composite service request, Custom table, Notifications, and 
+Set different stages / set different state of the RITM
+        </p>
+        <a href="https://github.com/bernicetempleman/Service-Catalog-Design" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+ 
+    <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2021</p>
+    <p class="copy">
+      Built by
+      <a href="https://www.linkedin.com/in/bernicetempleman/" target="_blank">Bernice Templeman</a>
+    </p>
+  </footer>
+
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+
+</html>
