@@ -6,6 +6,7 @@ https://github.com/bernicetempleman/
 My Github Pages repo can be found at:  
 https://github.com/bernicetempleman/bernicetempleman.github.io/
 
-And, soon, you can see my customized homepage at:
+https://bernicetempleman.github.io/
 
-http://bernicetempleman.github.io/
+![image](https://user-images.githubusercontent.com/12488769/147885792-bbef651c-f4a9-4def-bf61-afc65da52e2d.png)
+
