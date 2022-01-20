@@ -118,7 +118,7 @@ nav ul li {
 
 .bio {
   width: 23rem;
-  padding: 0.625rem;
+  padding: 10.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
@@ -369,7 +369,7 @@ footer {
   }
 
   .bio {
-    margin-top: 10 rem;
+    margin-top: 30 rem;
     width: 20.5rem;
   }
 
