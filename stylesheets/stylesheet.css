@@ -369,13 +369,13 @@ footer {
   }
 
   .hero {
-    margin-top: 4rem;
+    margin-top: 10rem;
     flex-direction: column;
     gap: 0;
   }
 
   .bio {
-    margin-top: 10rem;
+    margin-top: 20rem;
     width: 20.5rem;
   }
 
