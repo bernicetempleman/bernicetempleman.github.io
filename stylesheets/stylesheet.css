@@ -418,6 +418,10 @@ footer {
   .bio {
     width: 18.3rem;
   }
+  
+  .projects-container {
+    flex-direction: column;
+  }
 
   .project-container {
     width: 17.875rem;
