@@ -112,12 +112,12 @@ nav ul li {
 }
 
 .hero img {
-  height: 20.5rem;
-  width: 20.5;
+  height: 23.5rem;
+  width: 23.5;
 }
 
 .bio {
-  width: 20rem;
+  width: 23rem;
   padding: 0.625rem;
   border-radius: 6px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -314,12 +314,6 @@ footer {
   text-align: center;
   margin: 2rem 0 0;
 }
-.footer {
-  background-color: var(--bg-color);
-  padding: 1.25rem;
-  text-align: center;
-  margin: 2rem 0 0;
-}
 /* Footer section ends */
 
 /* General (utilities) */
@@ -369,13 +363,13 @@ footer {
   }
 
   .hero {
-    margin-top: 1rem;
+    margin-top: 4rem;
     flex-direction: column;
     gap: 0;
   }
 
   .bio {
-    margin-top: 30rem;
+    margin-top: 10 rem;
     width: 20.5rem;
   }
 
@@ -433,3 +427,4 @@ footer {
     max-width: 17.75rem;
   }
 }
+
